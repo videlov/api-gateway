@@ -13,7 +13,7 @@ jobs:
       any_modified: ${{ steps.changed-files.outputs.any_modified }}
     steps:
       - uses: actions/checkout@v4
-      - uses: tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275
+      - uses: tj-actions/changed-files@823fcebdb31bb35fdf2229d9f769b400309430d0
         id: changed-files
         with:
           files_ignore: |
